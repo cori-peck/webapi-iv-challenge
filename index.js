@@ -1,13 +1,9 @@
-const express = require('express');
+require('dotenv').config();
+const server = require('./api/server');
+
+
 const port = process.env.PORT || 3000;
 
-const index = express();
-
-index
-    .get('/', function (req, res) {
-        res.send(JSON.stringify({ Hello: 'Welcome to my API!' }));
-    })
-
-index.listen(port, function () {
+server.listen(port, () => {
     console.log(`My example app is listening on port ${port} `);
 })

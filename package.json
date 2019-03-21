@@ -11,6 +11,7 @@
   "author": "cori-peck <cori.peck@ymail.com>",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^7.0.0",
     "express": "^4.16.4"
   },
   "devDependencies": {
