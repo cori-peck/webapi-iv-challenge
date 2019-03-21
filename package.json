@@ -1,0 +1,20 @@
+{
+  "name": "my-awesome-api",
+  "version": "1.0.0",
+  "description": "The best api you will ever find",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon"
+  },
+  "repository": "https://github.com/cori-peck/webapi-iv-challenge.git",
+  "author": "cori-peck <cori.peck@ymail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
